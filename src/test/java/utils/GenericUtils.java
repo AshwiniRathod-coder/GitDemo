@@ -22,5 +22,7 @@ public class GenericUtils {
 		String childWindow = i1.next();
 		driver.switchTo().window(childWindow);
 	}
-	
+	public void waitForSecond(){
+		System.out.println("waiting");
+	}
 }
