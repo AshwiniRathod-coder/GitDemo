@@ -42,6 +42,7 @@ public void user_is_on_green_cart_landing_page() {
 	{
 		
 		landingPage.incrementQuantity(Integer.parseInt(quantity));
+		System.out.println("Checking git things");
 		landingPage.addToCart();
 		
 	}
