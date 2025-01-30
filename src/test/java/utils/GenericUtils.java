@@ -25,4 +25,7 @@ public class GenericUtils {
 	public void waitForSecond(){
 		System.out.println("waiting");
 	}
+	public void finalcommit(){
+		System.out.println("final commit");
+	}
 }
